@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '4479320262388799');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4479320262388799&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Entre Vínculos — Psicología y bienestar mental</title>
@@ -687,7 +704,7 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="#" class="navbar-logo">Entre Vínculos</a>
-      <a href="#calendario" class="btn btn-primary">Agendar sesión gratuita</a>
+      <a href="#calendario" class="btn btn-primary" onclick="fbq('track', 'Lead')">Agendar sesión gratuita</a>
     </div>
   </nav>
 
@@ -703,7 +720,7 @@
       <p class="hero-invitation reveal">Si quieres volver a sentir control y paz mental, sigue leyendo porque te voy a contar cómo pasar de vivir en un loop mental constante a recuperar la confianza en tu propia mente.<br><br>Y no, no vas a tener que meditar en silencio durante horas ni pasar años en terapia.<br><br>Si te gustaría volver a disfrutar de los momentos simples sin miedo, toca el botón debajo para agendar tu Sesión de Claridad gratuita.</p>
 
       <div class="hero-cta-wrap">
-        <a href="#calendario" class="btn btn-primary reveal">Quiero agendar mi sesión gratuita</a>
+        <a href="#calendario" class="btn btn-primary reveal" onclick="fbq('track', 'Lead')">Quiero agendar mi sesión gratuita</a>
 
         <div class="social-proof reveal" aria-label="Prueba social">
           <span class="social-proof-item">
@@ -786,7 +803,7 @@
       <h2 class="reveal">Si alguno de estos problemas resuena contigo, tengo buenas noticias: <span class="hl">ninguno de ellos es el verdadero problema</span></h2>
       <p class="reveal">El problema es que estás intentando "controlar" la ansiedad con parches temporales, cuando lo que necesitas es <strong>desactivarla</strong>.</p>
       <p class="reveal">La mayoría de los enfoques fallan porque solo tratan el síntoma hoy o solo se pierden en el pasado. El <strong>Método de Intervención Híbrida (IH)</strong> es diferente porque combina lo mejor de la terapia Cognitivo-Conductual (para frenar el síntoma ahora) con el Psicoanálisis (para desactivar lo que generó el incendio).</p>
-      <a href="#calendario" class="btn btn-primary reveal">Quiero agendar mi sesión de claridad</a>
+      <a href="#calendario" class="btn btn-primary reveal" onclick="fbq('track', 'Lead')">Quiero agendar mi sesión de claridad</a>
     </div>
   </section>
 
@@ -918,7 +935,7 @@
       <p class="reveal">Buscas paz mental y quieres dejar de ser rehén de tu propia mente.</p>
       <p class="reveal">Las oportunidades llegan como un tren que abre sus puertas por un momento. Podés seguir atrapada en el loop del sobrepensamiento, o subirte ahora y recuperar tu versión más tranquila y segura.</p>
       <p class="reveal">Esta es una llamada gratuita donde te daremos un mapa claro de tu situación. Incluso si decidimos no trabajar juntas, saldrás con más claridad de la que has tenido en años.</p>
-      <a href="#calendario" class="btn btn-primary reveal">Quiero resolver mi ansiedad</a>
+      <a href="#calendario" class="btn btn-primary reveal" onclick="fbq('track', 'Lead')">Quiero resolver mi ansiedad</a>
     </div>
   </section>
 
@@ -929,7 +946,7 @@
       <p class="reveal">Elige el día y horario que mejor se adapte a ti. Este es el primer paso para recuperar tu tranquilidad.</p>
       <div class="calendar-embed reveal">
         <iframe
-          src="LINK-GHL-AQUI"
+          src="https://api.leadconnectorhq.com/widget/booking/PBSiqE1QlnDEEurtplI6"
           style="width:100%;height:700px;border:none;overflow:hidden;"
           scrolling="no"
           title="Calendario de agendamiento">
